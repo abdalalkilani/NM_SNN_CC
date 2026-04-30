@@ -2,6 +2,8 @@
 
 Fresh split of `../snn_allinone.py` into smaller modules. The code is the same runner, just easier to browse.
 
+For a simpler two-file version, see [`small/`](small/). The small version keeps the main SNN/modulated-SNN ideas but moves training/CLI code away from the model file and removes some advanced modes.
+
 ## Run It
 
 From inside this folder:
@@ -49,6 +51,7 @@ Use `--flag true` / `--flag false` for boolean options. Most bool flags also wor
 - `modulated.py`: modulated checkpoint loading, modulated forward pass, mod eval/test, spike stats, SHAP analysis, and modulated training loop.
 - `reporting.py`: parameter count summaries, shape summaries, run config JSON, and readable training log header.
 - `__init__.py`: public imports for common functions/classes.
+- `small/`: compact reader-friendly version split into model code and CLI/training code.
 
 ## Common Examples
 

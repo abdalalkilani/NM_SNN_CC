@@ -1,10 +1,10 @@
 # =============================================================================
 # SNN ALL-IN-ONE SMALL
 #
-# Kept: base SNN, data loading/splits, channel compression, ANN add/sub MLP,
+# Kept from big one: base SNN, data loading/splits, channel compression, ANN add/sub MLP,
 #       SNN additive modulator, modulated/staged training, neuromodulators,
 #       grouping, fixed masks, param controls, model helpers.
-# Removed: input delay, ANN combo, RNN/LSTM modulators, SNN substitution, NM debug print.
+# Removed from big one: input delay, ANN combo, RNN/LSTM modulators, SNN substitution, NM debug print.
 # =============================================================================
 
 # =============================================================================
